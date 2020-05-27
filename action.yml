@@ -5,7 +5,7 @@ inputs:
     description: 'Gist ID'
     required: true
   file_name:
-    description: 'Telegram chat ID or @username'
+    description: 'Filename at gist to read data from'
     required: true
 outputs:
   content:
