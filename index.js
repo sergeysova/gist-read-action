@@ -14,7 +14,6 @@ async function main() {
   core.setOutput('content', files[fileName].content)
 }
 
-
 main().catch(error => {
   console.error(error)
   core.setFailed(error.message)
