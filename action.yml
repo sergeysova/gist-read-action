@@ -1,4 +1,5 @@
 name: 'Gist Read Action'
+author: Sergey Sova
 description: 'Action to get gist data'
 inputs:
   gist_id:
@@ -13,3 +14,6 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  color: blue
+  icon: box
