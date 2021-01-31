@@ -9,8 +9,6 @@ async function main() {
   const response = await octokit.gists.get({ gist_id: gistId })
   const { files } = response.data
 
-  console.log(files[fileName])
-
   core.setOutput('content', files[fileName].content)
 }
 

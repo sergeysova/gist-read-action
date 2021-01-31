@@ -1,12 +1,12 @@
 name: 'Gist Read Action'
 author: Sergey Sova
-description: 'Action to get gist data'
+description: 'The action to read content of a gist to an output.'
 inputs:
   gist_id:
     description: 'Gist ID'
     required: true
   file_name:
-    description: 'Filename at gist to read data from'
+    description: 'Name of the file at the gist to read data from'
     required: true
 outputs:
   content:
@@ -16,4 +16,4 @@ runs:
   image: 'Dockerfile'
 branding:
   color: blue
-  icon: box
+  icon: download-cloud
